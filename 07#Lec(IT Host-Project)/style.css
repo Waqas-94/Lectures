@@ -1,0 +1,13 @@
+table,th, td{
+    border: 1px solid black;
+    letter-spacing: 2px;
+    text-align: center;
+    /* padding-left: 3px; */
+    /* column-span: 2px; */
+    /* -ms-grid-row-span: initial; */
+
+}
+
+th{
+    background-color: yellowgreen;
+}

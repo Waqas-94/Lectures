@@ -1,0 +1,6 @@
+Bootstrap has 12-col.
+.container is buildin container in Bootstrap.
+md=medium devices.
+sm=small-devices.
+justify-content-between only works if col-md-* is less than 12-columns.
+See-Gutter function by yourself.	

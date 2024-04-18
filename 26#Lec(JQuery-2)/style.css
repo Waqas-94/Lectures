@@ -1,0 +1,42 @@
+#a
+{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    /* display: none; */
+    position: relative;
+}
+#b
+{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    /* display: none; */
+}
+#c
+{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    /* display: none; */
+}
+
+#btn
+{
+    text-align: center;
+    color: white;
+    background-color: grey;
+    width: 100vw;
+    font-size: 25px;
+    border: 2px solid black;
+    
+}
+#para
+{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    width: 100vw;
+}

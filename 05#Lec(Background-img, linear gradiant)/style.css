@@ -1,0 +1,75 @@
+body{
+    /* background-image: url(Images/laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-image: linear-gradient(aqua,blue); */
+    /* background-image: linear-gradient(to left, aqua,blue); */
+    /* background-image: linear-gradient(to left, aqua 70%,blue); */
+    /* background-image: radial-gradient(aqua 50%,blue);
+    background-repeat: no-repeat;
+    height: 500px; */
+    /* More than 2 color can be used  */
+}
+
+#a{
+    color: red;
+    background-color: aqua;
+}
+
+#b{
+    color: blue;
+    background-color: pink;
+}
+
+#f{
+    color: white;
+    background-color: black;
+}
+
+#s{
+    background-color: red;
+}
+#t{
+    background-color: blueviolet;
+}
+#fo{
+    background-color: rgb(7, 177, 15);
+}
+#fi{
+    background-color: brown;
+}
+
+.a{
+    background-color: yellowgreen;
+}
+
+
+#box1{
+    background-image: linear-gradient(to right,aqua 30%,blue);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#box2{
+    /* background-image: radial-gradient(red 30%,yellow);
+    background-repeat: no-repeat; */
+    height: 300px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.image1{
+    background-image: url(Images/Faisalabad.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+
+.image2{
+    background-image: url(Images/Faisalabad.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+

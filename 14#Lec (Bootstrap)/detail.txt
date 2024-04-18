@@ -1,0 +1,12 @@
+col-classes
+fluid class
+container class
+button classes-classes
+nav bar-classes
+progress bar-classes
+toggle nav bar-classes
+pagination classes
+progress class
+progress bar class(to make graphs horizontally)
+carousal-class
+drop down class

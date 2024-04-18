@@ -1,0 +1,5 @@
+limits of Bootstap
+advantages of Media-Query
+@media only screen and(min-width){} 
+MIN-WIDTH (zero to 500px)
+MAX-WIDTH (infinity to 500px)

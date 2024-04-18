@@ -1,0 +1,14 @@
+#log{
+    background-color: #82b74b;
+    width: 400px;
+}
+
+div{
+    border: 4px solid rgb(180, 233, 34);
+    border-radius: 2%;
+    width: fit-content;
+}
+
+h3{
+    text-align:left
+}

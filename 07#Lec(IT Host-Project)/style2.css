@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#bg-img{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;  
+    margin-bottom: 50px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#logo{
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    font-family: calibri;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li:hover{
+    color: rgb(223, 63, 89);
+    text-decoration: underline;
+}
+
+#nav-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+#login-btn a{
+    font-family: calibri;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#login-btn{
+    background-color: rgb(223, 63, 89);
+    width: 120px;
+    height: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#-main{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#content{
+    font-size: 40px;
+    color: white;
+}
+
+#para p{
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#plan-btn{
+    background-color: rgb(223, 63, 89);
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px ;
+    margin-top: 35px;
+}
+
+#plan-btn a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#rocket{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+#rocket img{
+height: 350px;
+}
+
+#feature-sec{
+    margin: 0 auto;
+    width: 70%;
+}
+
+#some{
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+#some p{
+    color: #aaa4a4d5;
+    font-size:x-small;
+}
+#some h1{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight:bolder;
+}
+
+#feature1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 20px;
+}
+
+#domain h2{
+        padding-left: 15px;
+}
+
+#domain p{
+    margin-top: 20px;
+}
+
+#image{
+    width: fit-content;
+    margin: 20px;
+    margin-left: 70px;
+    background-color: rgb(223, 63, 89);;
+    border-radius: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+
+#bgimg{
+    background-image: url(images/feature-sec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#input-sec{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#search-btn{
+    background-color: rgb(223, 63, 89);
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 18px;
+
+}
+
+#search-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#b-plan, #v-plan{
+    color: white;
+    /* background-color: rgb(100, 51, 146); */
+    background-image: linear-gradient(to left, rgb(102, 5, 102) 80%, rgb(216, 79, 216));
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+#s-plan{
+    color: white;
+    background-color: rgb(223, 63, 89);
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+.pricing-body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#pricing1{
+    /* border: 2px solid black; */
+    background-color: rgb(163, 196, 186);
+    border-radius: 10px;
+}
+
+.pricing2{
+    border: 2px solid red;
+}
+
+#pricing1 h2{
+    text-align: center;
+    font-weight:bold;
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+ul li{
+    color: black;
+    text-align: center;
+}
+#site-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#site-btn{
+    color: white;
+    background-color: rgb(223, 63, 89);
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 15px;
+    margin-left: 40px;margin-bottom: 10px;
+}
+
+#bg-dedi{
+    background-image: url(images/dedication-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#bg-dedi #p1{
+    color: white;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+#bg-dedi #p2{
+    color: rgb(197, 189, 189);
+    font-size: 12px;
+}
+
+#ft-img{
+    background-color: rgb(38, 0, 128);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ft1, #ft2,#ft3,#ft4{
+    border: 2px solid black;
+    height: 200px;
+    width: 100px;
+}

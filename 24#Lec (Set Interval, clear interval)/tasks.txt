@@ -1,0 +1,9 @@
+1) make loading 
+2) make progress bar with different color with their width
+3) make timer
+	
+
+
+
+
+ 

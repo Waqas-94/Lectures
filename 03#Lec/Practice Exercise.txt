@@ -1,0 +1,7 @@
+Home Assignment
+
+1.Make a header at the TOP of the page in CENTER
+2.Set a city name as a sub Headings
+3.Set the image of the city
+4.Write thhe Advantages & Disadvantagesof the Cities in the form of List
+5.Play a video Offline

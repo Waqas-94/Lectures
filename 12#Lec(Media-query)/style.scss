@@ -1,0 +1,25 @@
+@import "variables";
+@import "mixin";
+
+
+
+.container{
+    @include container-styling
+    }
+
+.box{
+    @include box-styling;
+}
+
+// @media "(kisy taret krna hai)" screen and "(target kiya hai)"{}
+
+
+@media only screen and ((min-width:500px) and (max-width:700px)) {
+    .container{
+        @include container-reponse;
+    }
+    .box{
+        @include box-responsive; 
+    }
+    
+}

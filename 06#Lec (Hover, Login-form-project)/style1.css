@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+#-main {
+background-image: url(images/p8.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 650px;
+}
+
+
+.navigation{
+    background-image: linear-gradient(to right, purple 40%, blue);
+    height: 70px;
+}
+
+#content{
+    margin-top: 90px;
+}
+
+#content p{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+
+li{
+    list-style-type: none;
+    display: inline;
+    float:right;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-right: 50px;
+    color: white;
+    
+}
+
+ul{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#title_bar{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:orange;
+    float: left;
+    margin-left: 10px;  
+}
+
+#box1, #box2{
+    display: inline;
+    border: 2px solid red;
+    /* margin: 20px; */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}  
+
+#box1{
+    margin-right: 400px;
+
+} 
+
+.buton {
+    height: 250px;
+    margin-top: 100px; 
+    margin-left: 200px;
+}
+
+#box1:hover{
+    background-color:white;
+    color: brown;
+    border: 2px solid black;
+    transition: 0.5s ease-in;
+}
+
+#box2:hover{    
+    background-color:white;
+    color: brown;
+    border: 2px solid black;
+    transition: 0.5s ease-out;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+.buton a{
+    text-decoration: none;
+}

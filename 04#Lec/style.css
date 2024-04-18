@@ -1,0 +1,40 @@
+
+h1{
+    color:red;
+    background-color: aqua;
+    text-align: center;
+    border: 3px brown;
+    border-style: outset;
+     /* font-size: x-large;
+     Important is used for give high emphasizing if things are not happening or stopped
+     font-size: x-large !important; */
+}
+
+p{
+    color: rgb(68, 14, 156);
+    background-color: rgb(184, 116, 163);
+    font-size: 20px;
+}
+
+
+ul li{  
+    color: red;
+    background-color: black;
+    /* Selecting Tag within Tag-Method */
+}
+
+
+h2{
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    /* font-size: 20px; */
+}
+
+h3{
+    color: pink;
+    background-color: green;
+    border: 2px double black;
+    /* border-style:double; */
+}
+

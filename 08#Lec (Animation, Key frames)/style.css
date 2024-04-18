@@ -1,0 +1,150 @@
+.animate{
+    display: flex;
+    justify-content: space-around;
+}
+#cont{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-direction:reverse; */
+}
+
+#cont2{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    animation-name: waqas;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+#cont3{
+    height: 300px;
+    width: 300px;
+    background-color:green;
+    display: flex;
+    justify-content: space-evenly;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+#box3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: falling;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#cont4{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes color-change {
+    0%{
+        background-color: rgb(99, 218, 99);
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: orange;
+    }
+    
+}
+
+@keyframes falling {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(0,280px);
+        background-color: aqua;
+    }
+    /* 50%{
+        transform: translate(50px,0);
+    } */
+    
+}
+
+@keyframes waqas {
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(200px,0);
+    }
+    50%{
+        transform: translate(200px,200px);
+    }
+    75%{
+        transform: translate(0,200px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+    
+}
+
+@keyframes slide{
+    0%{
+        transform: translate(-50px);
+    }
+
+    100%{
+        transform: translate(200px);
+    }
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

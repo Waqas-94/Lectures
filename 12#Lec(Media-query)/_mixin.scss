@@ -1,0 +1,31 @@
+@mixin box-styling{
+    background-color: yellowgreen;
+    height: 100px;
+    margin: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin box-responsive{
+    background-color: powderblue;
+        color: red;
+        border: 2px solid orange;
+        height: 100px;
+        border-radius: 50%;
+        width: auto;
+}
+
+@mixin container-reponse{
+    background-color: blue;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+}
+
+@mixin container-styling{
+    background-color: aqua;
+    height: 400px;
+}
